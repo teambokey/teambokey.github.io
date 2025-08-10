@@ -6,33 +6,46 @@
     <title>Team Bokey - Home</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', sans-serif;
             margin: 0;
-            background-color: #1e1e1e;
+            background: linear-gradient(135deg, #0a0f1f, #1b0033);
             color: white;
             text-align: center;
+            animation: fadeIn 1s ease-in;
         }
         header {
-            background-color: #282828;
+            background: rgba(0, 0, 0, 0.6);
             padding: 20px;
+            box-shadow: 0 0 20px #00ff88;
         }
         nav a {
             color: #00ff88;
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
+            font-size: 1.1em;
+            transition: 0.3s;
         }
         nav a:hover {
             color: #00ffaa;
+            text-shadow: 0 0 10px #00ffaa;
         }
         main {
             padding: 30px;
         }
+        h1 {
+            text-shadow: 0 0 15px #00ff88;
+        }
         footer {
-            background-color: #282828;
+            background: rgba(0, 0, 0, 0.6);
             padding: 15px;
             font-size: 0.9em;
             margin-top: 30px;
+            box-shadow: 0 0 10px #00ff88;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
     </style>
 </head>
@@ -47,8 +60,8 @@
 
     <main>
         <h2>Your Source for Roblox Scripts</h2>
-        <p>Here at Team Bokey, we share fun and useful Roblox scripts for everyone.</p>
-        <p>Click "Scripts" above to see our collection.</p>
+        <p>We share fun and powerful Roblox scripts for everyone.</p>
+        <p>Click "Scripts" above to explore our collection.</p>
     </main>
 
     <footer>
